@@ -22,7 +22,6 @@ class UpdateComputerRequest extends FormRequest
             'model' => 'required',
             'submodel' => 'required',
             'processor' => 'required',
-            'power' => 'required',
             'speed' => 'required',
             'year' => 'required',
             'bit' => 'required',

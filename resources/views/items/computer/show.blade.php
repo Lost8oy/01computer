@@ -1,3 +1,4 @@
+@if (auth()->user()->is_admin)
 <x-admin.wrapper>
     <x-slot name="title">
             {{ __('Computers') }}
@@ -75,4 +76,5 @@
         </div>
     </div>
 </x-admin.wrapper>
+@else
 

@@ -155,23 +155,3 @@
       </div>
     </div>
   </div>
-  <div class="header-56">
-    <div class="content6">
-      <div class="column3">
-        <b class="heading">101 Computers</b>
-      </div>
-      <div class="column4">
-        <div class="text">
-          Welcome to 101Computers, where technology knows no bounds. Embark on a journey through our curated collection of historic computers.
-        </div>
-        <div class="actions">
-          <div class="button4">
-            <div class="link">View Gallery</div>
-          </div>
-          <div class="button6">
-            <div class="link">Tour</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>

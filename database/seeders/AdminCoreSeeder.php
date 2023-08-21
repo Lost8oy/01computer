@@ -37,6 +37,10 @@ class AdminCoreSeeder extends Seeder
             'menu create',
             'menu edit',
             'menu delete',
+            'computer list',
+            'computer create',
+            'computer edit',
+            'computer delete',
         ];
 
         foreach ($permissions as $permission) {
@@ -62,12 +66,14 @@ class AdminCoreSeeder extends Seeder
         $user = \App\Models\User::factory()->create([
             'name' => 'Super Admin',
             'email' => 'superadmin@example.com',
+            'is_admin' => '1',
         ]);
         $user->assignRole($role3);
 
         $user = \App\Models\User::factory()->create([
             'name' => 'Admin User',
             'email' => 'admin@example.com',
+            'is_admin' => '1',
         ]);
         $user->assignRole($role2);
 

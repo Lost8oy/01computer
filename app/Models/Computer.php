@@ -14,16 +14,19 @@ class Computer extends Model
     protected $fillable = [
         'position_id',
         'bool_position',
-        'manufacturer_id',
         'inventory_number',
         'serial_number',
+        'manufacturer_id',
         'model',
         'submodel',
-        'processor',
-        'power',
-        'speed',
         'year',
+        'power_type',
+        'power_rating',
+        'speed',
+        'processor',
         'bit',
+        'keyboard',
+        'monitor',
         'icon',
         'description'
     ];
